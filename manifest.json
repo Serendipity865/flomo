@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Flomo Saver",
+  "version": "1.0",
+  "description": "将网页内容快速保存到Flomo",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://flomoapp.com/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "打开Flomo侧边栏"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "popup.html",
+    "enabled": true
+  }
+}
