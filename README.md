@@ -1,4 +1,5 @@
 # Flomo Chrome 扩展方案
+在popup.js 82行，替换为自己的flomo API 即可使用插件
 
 ## 功能概述
 本扩展程序将在Chrome浏览器中添加一个侧边栏，帮助用户快速将网页内容保存到flomo。主要功能包括：
