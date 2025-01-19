@@ -78,7 +78,8 @@ submitBtn.addEventListener('click', async () => {
     // 通过background.js调用flomo API
     const response = await chrome.runtime.sendMessage({
       action: 'saveToFlomo',
-      url: 'https://flomoapp.com/iwh/MzYxMjI0/19f6582cc4777cd0907988037c6d5541/',
+    // 添加自己的flomo API
+      url: 'https://flomoapp.com/iwh/MzYxMjI0/*****************/',
       data: {
         content: content
       }
